@@ -105,3 +105,6 @@ Explicit Deny overrides Allow.
 If no policy matches, default is Deny.
 
 Action Performed: If allowed, the action succeeds; else, error returned.
+
+
+Roles are different from IAM Users and groups 
