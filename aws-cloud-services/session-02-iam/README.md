@@ -1,8 +1,8 @@
-**1.****Introduction to AWS IAM**
+**1. Introduction to AWS IAM**
 AWS Identity and Access Management (IAM) is a free, global service that enables you to securely control access to AWS services and resources. It helps you manage who can access what in your AWS environment, following the principle of least privilege (grant only the permissions needed to perform a task).
 IAM handles two core aspects:
 
--** Authentication: **Proving your identity (e.g., "Who are you?").
+-** Authentication:**Proving your identity (e.g., "Who are you?").
 -** Authorization: **Determining what actions you can perform (e.g., "What are you allowed to do?").
 
 Why use IAM? It centralizes access control, reduces security risks, and scales easily for teams. For DevOps engineers, IAM is essential for automating deployments, managing multi-account environments, and ensuring compliance.
