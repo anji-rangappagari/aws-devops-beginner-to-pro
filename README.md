@@ -1,5 +1,5 @@
 # aws-cloud-services-beginner-to-pro
-This AWS DevOps repo guides beginners to pro-level expertise
+This AWS cloud services repo guides beginners to pro-level expertise
 
 **Session-01:**
 - Understand about the cloud
