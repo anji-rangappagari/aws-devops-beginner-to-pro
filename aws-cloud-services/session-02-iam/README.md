@@ -1,20 +1,20 @@
-1. Introduction to AWS IAM
+**1.****Introduction to AWS IAM**
 AWS Identity and Access Management (IAM) is a free, global service that enables you to securely control access to AWS services and resources. It helps you manage who can access what in your AWS environment, following the principle of least privilege (grant only the permissions needed to perform a task).
 IAM handles two core aspects:
 
-Authentication: Proving your identity (e.g., "Who are you?").
-Authorization: Determining what actions you can perform (e.g., "What are you allowed to do?").
+-** Authentication: **Proving your identity (e.g., "Who are you?").
+-** Authorization: **Determining what actions you can perform (e.g., "What are you allowed to do?").
 
 Why use IAM? It centralizes access control, reduces security risks, and scales easily for teams. For DevOps engineers, IAM is essential for automating deployments, managing multi-account environments, and ensuring compliance.
 Key Benefits
 
-Security: Fine-grained permissions prevent unauthorized access.
-Scalability: Manage thousands of users without manual overhead.
-Auditability: Integrates with AWS CloudTrail for logging actions.
-Cost-Effective: No additional charges for IAM itself.
+- **Security:** Fine-grained permissions prevent unauthorized access.
+- **Scalability:** Manage thousands of users without manual overhead.
+- **Auditability: **Integrates with AWS CloudTrail for logging actions.
+**- Cost-Effective:** No additional charges for IAM itself.
 
 
-2. Authentication vs. Authorization
+**2.****Authentication vs. Authorization**
 Your analogy is spot-on but let's refine it for accuracy and clarity.
 Authentication: Proving Your Identity
 Think of authentication as getting an ID badge when you join a company. The security guard at the gate checks your badge to confirm you're an employee and lets you enter the building. Without it, you're denied entry.
@@ -34,14 +34,14 @@ Even if you're logged in, without permissions, you can't launch an EC2 instance 
 Permissions are granted via IAM Policies—JSON documents that specify allowed/denied actions, resources, and conditions.
 
 Example: A user authenticated to the console tries to create an S3 bucket. IAM checks their policies; if "s3:CreateBucket" is allowed, it succeeds; otherwise, it's denied.
-Key Difference:
+**Key Difference:**
 
 Authentication = "Let me in" (identity verification).
 Authorization = "What can I do?" (permission checks).
 
 Without policies, an authenticated user has no access to resources—emphasizing least privilege.
 
-3. Core IAM Components
+**3. Core IAM Components**
 IAM revolves around four main entities: Users, Groups, Roles, and Policies. These work together to manage access efficiently.
 IAM Users
 
@@ -96,7 +96,7 @@ Attach this to a group or role for controlled access.
 Here's a diagram illustrating how these components interconnect in an AWS account:
 And another view showing how policies grant access to services like EC2 and RDS:
 
-4. How IAM Works: End-to-End Flow
+**4. How IAM Works: End-to-End Flow**
 
 Request Made: A user or service requests an action (e.g., via Console, CLI, or API).
 Authentication Check: IAM verifies identity (credentials match?).
