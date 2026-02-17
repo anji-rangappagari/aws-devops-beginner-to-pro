@@ -22,8 +22,9 @@ Regions, Availabilityzones
  - Select default security group and VPC and storage
  - Launch instance
 
- wait for instance available 
+ - wait for instance available 
 
- ssh -i first-instance-demo.pem ubuntu@ipaddress
+ - ssh -i first-instance-demo.pem ubuntu@ipaddress
 
- Install jenkins
+ - Install jenkins
+ https://www.jenkins.io/doc/book/installing/linux/
