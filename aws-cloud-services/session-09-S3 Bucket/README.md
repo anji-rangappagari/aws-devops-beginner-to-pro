@@ -113,3 +113,8 @@ Then Disable Block Public Access
 
 
 Note : If you use the java script in your code , you must enable cors
+
+Also how to save the cost when you enable s3 bucket versioning
+
+white a condition that to delete after 10 days or when new version created move the old version to s3 Glacier Deep Archieve.
+Lets deep dive this part later
